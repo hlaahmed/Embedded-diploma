@@ -17,9 +17,11 @@ int main()
 }
 int power(int num1)
 {
+	int product = 1;
 	for(int i= 1; i < num1 ; i++)	
 	{
-		if(i*i == num1)
+		product = product * 2;
+		if(product == num1)
 		{		
 			return 1;
 		}	

@@ -17,7 +17,7 @@ int main()
 }
 int perfectsquare(int num1)
 {
-	for(int i= 1; i < num1 ; i++)	
+	for(int i= 1; i < num1/2 ; i++)	
 	{
 		if(i*i == num1)
 		{		
